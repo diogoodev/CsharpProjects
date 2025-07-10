@@ -1,0 +1,26 @@
+### **Semana 3: Trabalhando com Dados**
+
+**Módulo:** `Trabalhe com dados variáveis em aplicações de console do C#` (8 desafios)
+
+**Foco da Semana:** Entender que C# é uma linguagem "fortemente tipada" e aprender a manipular diferentes tipos de dados.
+
+- **Tópicos:**
+
+  - Escolher o tipo de dados correto (`int`, `decimal`, `string`, `bool`, etc.).
+  - Converter tipos de dados (casting e conversão).
+  - Métodos úteis para trabalhar com arrays (`Sort`, `Reverse`, etc.).
+  - Formatação de strings para apresentação (interpolação, `string.Format`).
+  - Métodos úteis para manipular strings (`ToUpper`, `Trim`, `Replace`, `Substring`).
+  - Projeto Guiado e Projeto de Desafio sobre manipulação de dados.
+
+- **Metas da Semana:**
+
+  1.  Entender a diferença entre tipos de valor (como `int`) e tipos de referência (como `string` e `arrays`).
+  2.  Saber como converter um `string` em um número e vice-versa.
+  3.  Completar o módulo e **conquistar o troféu**.
+
+- **Dicas para a Semana:**
+  - Crie uma "colinha" com os principais tipos de dados e para que servem (ex: `int` para números inteiros, `decimal` para dinheiro, `bool` para verdadeiro/falso).
+  - Brinque muito com os métodos de `string`. Eles são usados o tempo todo na programação real.
+
+---

@@ -1,0 +1,24 @@
+
+### **Semana 5: O Detetive de Código (Depuração)**
+
+**Módulo:** `Depure aplicações de console em C#` (7 desafios)
+
+**Foco da Semana:** Aprender a encontrar e consertar bugs de forma sistemática e a lidar com erros inesperados durante a execução do programa.
+
+*   **Tópicos:**
+    *   Princípios de depuração e tratamento de exceções.
+    *   Usar as ferramentas de depuração do VS Code (`breakpoints`, `step over`, `step into`).
+    *   Implementar o tratamento de exceções com blocos `try-catch`.
+    *   Criar e lançar suas próprias exceções.
+    *   Projeto Guiado e Projeto de Desafio sobre depuração e tratamento de erros.
+
+*   **Metas da Semana:**
+    1.  Se sentir confortável usando o debugger do VS Code para "caminhar" pelo seu código linha a linha.
+    2.  Saber como impedir que seu programa "quebre" se o usuário digitar um texto onde se espera um número, usando `try-catch`.
+    3.  Completar o módulo e **conquistar o troféu**.
+
+*   **Dicas para a Semana:**
+    *   O debugger é seu melhor amigo. A partir de agora, sempre que um código não funcionar como o esperado, não tente adivinhar o erro. Coloque um `breakpoint` e investigue!
+
+---
+

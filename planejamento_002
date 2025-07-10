@@ -1,0 +1,26 @@
+### **Semana 2: Dominando a Lógica de Controle**
+
+**Módulo:** `Adicione lógica a aplicações de console em C#` (8 desafios)
+
+**Foco da Semana:** Aprender a criar programas mais complexos que podem tomar decisões variadas e repetir tarefas.
+
+- **Tópicos:**
+
+  - Avaliar expressões booleanas (`==`, `!=`, `>`, `<`, `&&`, `||`).
+  - Escopo de variáveis (dentro de blocos `{}`).
+  - Estrutura de decisão `switch-case`.
+  - Loop com a instrução `for`.
+  - Loops com as instruções `do-while` e `while`.
+  - Projeto Guiado e Projeto de Desafio com laços de repetição e condicionais.
+
+- **Metas da Semana:**
+
+  1.  Saber quando usar `if`, `switch`, `for`, `while` e `do-while`.
+  2.  Entender o que é "escopo" e por que uma variável declarada dentro de um `if` não existe fora dele.
+  3.  Completar o módulo e **conquistar o troféu**.
+
+- **Dicas para a Semana:**
+  - **Diferença crucial:** `while` (pode nunca executar), `do-while` (executa pelo menos uma vez). Crie exemplos para testar isso!
+  - Use o loop `for` quando souber exatamente quantas vezes quer repetir algo. Use `while` quando a condição de parada for mais complexa.
+
+---

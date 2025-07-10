@@ -1,0 +1,22 @@
+### **Semana 4: Organizando o Código com Métodos**
+
+**Módulo:** `Crie métodos em aplicações de console em C#` (6 desafios)
+
+**Foco da Semana:** Parar de escrever todo o código no método `Main` e começar a organizar o código de forma reutilizável e legível.
+
+*   **Tópicos:**
+    *   Escrever seu primeiro método (função).
+    *   Criar métodos que recebem parâmetros (dados de entrada).
+    *   Criar métodos que retornam valores (dados de saída).
+    *   Projeto Guiado e Projeto de Desafio sobre criação de um programa modularizado.
+
+*   **Metas da Semana:**
+    1.  Entender o princípio DRY (Don't Repeat Yourself - Não se Repita) e como os métodos ajudam nisso.
+    2.  Saber criar um método que faz uma tarefa específica e chamá-lo de outro lugar.
+    3.  Completar o módulo e **conquistar o troféu**.
+
+*   **Dicas para a Semana:**
+    *   Pense em métodos como "mini-programas". Cada um tem uma responsabilidade única. Um método para "calcular a média", outro para "exibir o resultado", etc.
+    *   Refatore (reescreva) um código antigo que você fez nas semanas anteriores, quebrando-o em pequenos métodos.
+
+---
