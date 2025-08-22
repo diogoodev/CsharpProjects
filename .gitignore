@@ -8,5 +8,8 @@
 [Bb]in/
 [Oo]bj/
 
+#pastas
+backup_20250822_003220
+
 # Arquivos gerados pelo VS Code
 .vscode/
