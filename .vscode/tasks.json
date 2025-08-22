@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/${input:projectItem}"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "run",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/${input:projectItem}"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "projectItem",
+            "description": "Selecione o projeto",
+            "type": "pickString",
+            "options": [
+                "Semana_01-Console_e_Fundamentos/01_Primeiro_Codigo",
+                "Semana_01-Console_e_Fundamentos/02_Variaveis_e_Literais",
+                "Semana_02-Logica_de_Decisao/02_Logica_IF_ELSE"
+            ]
+        }
+    ]
+}

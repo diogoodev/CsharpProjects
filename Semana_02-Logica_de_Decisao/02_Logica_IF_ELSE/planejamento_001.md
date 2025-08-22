@@ -2,7 +2,7 @@
 
 O mais importante é a **consistência**.
 
-#### **Filosofia de Estudo (Como Estudar)**
+<!-- #### **Filosofia de Estudo (Como Estudar)**
 
 1.  **Aprendizagem Ativa (Não seja um espectador):** Não se limite a ler ou assistir. **Digite cada linha de código**. Mude os valores, quebre o código de propósito e tente consertar. É assim que o cérebro aprende a programar.
 2.  **Consistência > Intensidade:** É melhor estudar 1 hora por dia, 5 dias por semana, do que 5 horas apenas no sábado. A repetição diária fortalece as conexões neurais.
@@ -18,7 +18,7 @@ O plano é dividido em 6 semanas, cobrindo um módulo por semana (exceto o prime
 
 **Tempo sugerido:** 1 a 2 horas por dia, 4-5 dias por semana.
 
----
+--- -->
 
 ### **Semana 1: Configurando o Ambiente e a Lógica Inicial**
 
