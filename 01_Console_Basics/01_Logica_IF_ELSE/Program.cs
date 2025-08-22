@@ -1,4 +1,5 @@
-﻿//Objetivos
+﻿/*
+ //Objetivos
 //----------
 // Escrever um código que avalia condições usando as instruções if, else e else if.
 // Criar expressões boolianas para avaliar uma condição.
@@ -67,7 +68,7 @@ else
 
 // // Expressão booliana em métodos
 
-/*  string message = "The quick brown foz jumps over the lazy fox.";
+  string message = "The quick brown foz jumps over the lazy fox.";
 
 bool result = message.("dog");
 
@@ -84,24 +85,55 @@ bool result = message.("dog");
  if (num.Contains){
      Console.WriteLine("Igual");
  }
- */
- // Bloco de Código
 
-/*
+// Bloco de Código
+
+
  string dolar = "Nesse texto temos alguns sinal de $";
 
  bool price = dolar.Contains("$");
 
 if (price) {
   Console.WriteLine("Dolar detectado");
- } */
+ }
 
-/*#Exercício – Criar lógica de decisão aninhada com if, elseif e else
-Concluido
-*/
+//Exercício – Criar lógica de decisão aninhada com if, elseif e else
+//Concluido
+
 
 // #Exercício – Concluir uma atividade de desafio que aplica regras de negócios - Em andamento, bem no inicio.
+*/
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
 
 
+if (daysUntilExpiration < 1)
+{
+  Console.WriteLine("Your subscription has expired");
+}
+ else if (daysUntilExpiration == 1)
+{
+  Console.WriteLine($"Your subscription expires within a day!");
+}
+else if (daysUntilExpiration <= 5)
+{
+  Console.WriteLine("Your subscription expires in " + daysUntilExpiration + " days");
+}
+else if (daysUntilExpiration <= 10)
+{
+  Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
 
+// descontos
 
+if (daysUntilExpiration == 1)
+{
+  discountPercentage = 20;
+  Console.WriteLine("Renew now and save " + discountPercentage + "%");
+}
+else if (daysUntilExpiration <= 5 && daysUntilExpiration > 0 )
+{
+  discountPercentage = 10;
+  Console.WriteLine("Renew now and save " + discountPercentage + "%");
+}
