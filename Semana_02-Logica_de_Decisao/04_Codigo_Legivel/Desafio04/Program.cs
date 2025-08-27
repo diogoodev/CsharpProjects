@@ -4,14 +4,24 @@ Desafio de código – Aplicar as diretrizes de estilo para melhorar a legibilid
 */
 //=============================
 
-string str = "The quick brown fox jumps over the lazy dog.";
-char[] charMessage = str.ToCharArray();
-Array.Reverse(charMessage);
-int x = 0;
-// count the o's
-foreach (char i in charMessage) { if (i == 'o') { x++; } }
-// convert it back to a string
-string new_message = new string(charMessage);
-// print it out
-Console.WriteLine(new_message);
-Console.WriteLine($"'o' appers {x} times.");
+/*
+Inverte a mensagem e conta o numero de vezes que a letra 'o' aparace.
+*/
+string message = "The quick brown fox jumps over the lazy dog.";
+
+char[] letterMessage = message.ToCharArray();
+Array.Reverse(letterMessage);
+
+int count = 0;
+foreach (char letter in letterMessage)
+{
+  if (letter == 'o')
+  {
+    count++;
+  }
+}
+
+string newMessage = new string(letterMessage);
+
+Console.WriteLine(newMessage);
+Console.WriteLine($"'o' appers {count} times.");
