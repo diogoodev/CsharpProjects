@@ -3,6 +3,103 @@
 // initialize variables - graded assignments
 int currentAssignments = 5;
 
+string[] alunos = { "Sophia", "Andrew", "Emma", "Logan" };
+int[] sophiaNotas = { 90, 86, 87, 98, 100 };
+int[] andrewNotas = { 92, 89, 81, 96, 90 };
+int[] emmaNotas = { 90, 85, 87, 98, 68 };
+int[] loganNotas = { 90, 95, 87, 88, 96 };
+int[] somaNotas = {0,0,0,0,0 };
+decimal[] mediaAlunos = { 0, 0, 0, 0, 0 };
+
+int somaAlunos = 0;
+int numeroAluno = 0;
+
+Console.WriteLine("Student\t\tGrade\n");
+
+foreach (string aluno in alunos)
+{
+  if (aluno == "Sophia")
+  {
+    foreach (int notas in sophiaNotas)
+    {
+      somaAlunos += notas;
+      somaNotas[numeroAluno] = somaAlunos;
+    }
+  }
+
+  if (aluno == "Andrew")
+  {
+    foreach (int notas in andrewNotas)
+    {
+      somaAlunos += notas;
+      somaNotas[numeroAluno] = somaAlunos;
+    }
+  }
+  if (aluno == "Emma")
+  {
+    foreach (int notas in emmaNotas)
+    {
+      somaAlunos += notas;
+      somaNotas[numeroAluno] = somaAlunos;
+    }
+  }
+  if (aluno == "Logan")
+  {
+    foreach (int notas in loganNotas)
+    {
+      somaAlunos += notas;
+      somaNotas[numeroAluno] = somaAlunos;
+    }
+  }
+
+
+  mediaAlunos[numeroAluno] = (decimal)somaNotas[numeroAluno] / currentAssignments;
+  somaAlunos = 0;
+
+  Console.WriteLine($"{alunos[numeroAluno]}:\t\t{mediaAlunos[numeroAluno]}");
+  numeroAluno++;
+}
+
+Console.ReadLine();
+  /*
+    foreach (int notas in andrew)
+  {
+    somaAlunos = somaAlunos + notas;
+    soma[numeroAluno] = somaAlunos;
+  }
+    somaAlunos = 0;
+    foreach (int notas in emma)
+    {
+      somaAlunos = somaAlunos + notas;
+      soma[numeroAluno] = somaAlunos;
+    }
+    somaAlunos = 0;
+    foreach (int notas in logan)
+    {
+      somaAlunos = somaAlunos + notas;
+      soma[numeroAluno] = somaAlunos;
+    }
+    somaAlunos = 0;
+*/
+  //Console.WriteLine($"{turma[0]}, notas {sophia[0]}, {sophia[1]}, {sophia[2]}, {sophia[3]}, {sophia[4]}");
+
+ //onsole.WriteLine($"{turma[numeroAluno]}, soma das notas {soma[numeroAluno]}");
+
+
+/*
+decimal sophiaMedia = 0;
+decimal sophiaSum = 0;
+
+decimal[] alunosMedia = { 0 };
+decimal alunosSum = 0;
+foreach (int notas in sophia)
+{
+  sophiaSum += notas;
+}
+Console.WriteLine($"a soma é {sophiaSum} a media é {sophiaMedia =  sophiaSum / currentAssignments }");
+
+*/
+/*
 int sophia1 = 90;
 int sophia2 = 86;
 int sophia3 = 87;
@@ -55,3 +152,6 @@ Console.WriteLine("Logan:\t\t" + loganScore + "\tA-");
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
+*/
+
+
